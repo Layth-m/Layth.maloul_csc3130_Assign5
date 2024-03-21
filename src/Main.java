@@ -5,21 +5,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-        // Testing for Radix Sort
-
-        String[] input = new String[] {"gojo", "google", "jogo", "bill", "pup", "cipher", "watchmen", "knight", "it", "stand", "sandman",
-                "hydra", "surtr"};
-
-        radix_sort radix_test = new radix_sort();
-
-        radix_test.radixSort(input);
-
-        for (int i = 0; i < input.length; i++) {
-            System.out.print(input[i]);
-
-            System.out.print(", ");
-
-        }
+  
         System.out.println();
         //Testing for sub_integer method;
         Set<Integer> S = new HashSet<>();
